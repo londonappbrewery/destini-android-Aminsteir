@@ -12,16 +12,17 @@
     android:background="@drawable/background">
 
 
-
     <TextView
         android:id="@+id/storyTextView"
-        android:text="@string/T1_Story"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:textSize="24sp"
-        android:textColor="#ffffffff"/>
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:gravity="center_horizontal"
+        android:text="@string/T1_Story"
+        android:textColor="#ffffffff"
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/buttonTop"
@@ -52,6 +53,17 @@
         android:textColor="#ecf0f1"
         android:textSize="15sp"/>
 
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="135dp"
+        android:background="#e74c3c"
+        android:text="@string/exit"
+        android:textSize="18sp"
+        android:visibility="invisible" />
 
 
 </RelativeLayout>
